@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Insightful MSN",
+  "version": "1.0",
+  "description": "An AI powered assistant provides insights to users while they browsing any news or article in MSN.com. Demo version.",
+  "permissions": ["sidePanel", "tabs"],
+  "icons": {
+    "192": "triangle.png"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
